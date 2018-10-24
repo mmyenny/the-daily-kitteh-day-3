@@ -3,7 +3,69 @@ html {
 }
 
 body {
+  background-color: #008aa1;
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background: #ddf2f3;
+}
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #415467;
+}
+
+.top {
+  background-color: #00bfd5;
+  padding: 1px 0;
+  justify-content: center;
+}
+
+.top a {
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.kitty-info {
+  display: flex;
+}
+
+.side-kitty {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 15px;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+h3 {
+  color: #415467;
+}
+img {
+  height: 200px;
+  width: auto;
+}
+
+h2 {
+  color: #415467;
+}
+
+.bottom {
+  background-color: #d3d3d3;
+  padding: 5px 0;
+}
+
+.bottom a {
+  color: black;
 }
